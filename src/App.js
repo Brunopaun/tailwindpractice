@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import React, {Fragment} from 'react';
 import './App.css';
+import Head from './components/Head/Head';
+import Main from '../src/components/Main/Main';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="bg-secondary-lightgrayishviolet">
+      <div class="fixed z-10 rounded-br-full w-6/12 h-3/5 bg-gradient-to-t from-gradient-lightviolet"></div>
+        <div class="container w-screen h-screen flex flex-col justify-evenly items-center">
+          <Main/>
+          <Head/>
+        </div>
     </div>
   );
 }
