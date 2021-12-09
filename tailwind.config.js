@@ -30,7 +30,7 @@ module.exports = {
       },
       fontSize:{
         'ss': ['0.60rem', '0.8rem']
-      }
+      },
     },
   },
   variants: {

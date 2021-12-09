@@ -8,7 +8,7 @@ import Chat from "./Chat";
 const Main = ()=>{
     return (
         <Wrapper>
-            <div class="flex flex-col justify-between bg-secondary-lightgrayishviolet w-full h-full rounded-2xl ">
+            <div class="flex flex-col justify-between bg-secondary-lightgrayishviolet w-full h-full">
                 <SubHeader profile="Samuel Green" status="Available to Walk"/>
                 <Chat/>
                 <Button placeholder="Type a message..."/>

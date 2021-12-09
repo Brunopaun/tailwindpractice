@@ -1,0 +1,26 @@
+.input{
+    visibility: hidden;
+
+    &::after {
+        content: " ";
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: transparent;
+        display: inline-block;
+        visibility: visible;
+        border: 1px solid white;
+    }
+
+    &:checked{
+        content: " ";
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: white;
+        display: inline-block;
+        visibility: visible;
+        border: 1px solid white;
+    }
+}
+
