@@ -8,10 +8,10 @@ import Chat from "./Chat";
 const Main = ()=>{
     return (
         <Wrapper>
-            <div class="bg-secondary-lightgrayishviolet w-full h-full rounded-2xl ">
-                <SubHeader/>
+            <div class="flex flex-col justify-between bg-secondary-lightgrayishviolet w-full h-full rounded-2xl ">
+                <SubHeader profile="Samuel Green" status="Available to Walk"/>
                 <Chat/>
-                <Button/>
+                <Button placeholder="Type a message..."/>
             </div>
         </Wrapper>
     );

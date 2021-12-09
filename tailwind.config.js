@@ -28,6 +28,9 @@ module.exports = {
           'verylightmagenta': 'hsl(289, 100%, 72%)'
         }
       },
+      fontSize:{
+        'ss': ['0.60rem', '0.8rem']
+      }
     },
   },
   variants: {
